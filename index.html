@@ -8,9 +8,10 @@
     </head>
     <body>
         <div class="container">
-            <div class="table-filter-box">
-                <input type="text" id="table-filter" onkeyup="filter()" placeholder="search name">
-
+            <h1>Filter table</h1>
+            <p>type in the search filed to filter entries by name</p>
+            <input type="text" id="table-filter" onkeyup="filterTable()" placeholder="search name">
+            <div id="table-filter-box">
                 <table class="table" id="myTable">
                     <tr class="header">
                         <th>Name</th>
