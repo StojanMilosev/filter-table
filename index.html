@@ -8,7 +8,32 @@
     </head>
     <body>
         <div class="container">
-            
+            <div class="table-filter-box">
+                <input type="text" id="table-filter" onkeyup="filter()" placeholder="search name">
+
+                <table class="table" id="myTable">
+                    <tr class="header">
+                        <th>Name</th>
+                        <th>Contry</th>
+                    </tr>
+                    <tr>
+                        <td>Hans Zimmer</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td>Mracus McManus</td>
+                        <td>Schotland</td>
+                    </tr>
+                    <tr>
+                        <td>John Smith</td>
+                        <td>UK</td>
+                    </tr>
+                    <tr>
+                        <td>Javier Martinez</td>
+                        <td>Spain</td>
+                    </tr>
+                </table>
+            </div>
         </div>
         <script src="main.js"></script>
     </body>

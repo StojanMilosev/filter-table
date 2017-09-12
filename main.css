@@ -8,3 +8,35 @@
     margin: auto;
     padding: 50px;
 }
+#table-filter{
+    padding: 10px;
+    width: 50%;
+    margin: 20px 0;
+    font-weight: bolder;
+    font-size: 20px;
+    border: solid 2px #dfdfdf;
+    border-radius: 5px;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 2px #555555;
+}
+.table tr{
+    border-bottom: solid 1px #9f9f9f;
+    transition: all 200ms ease-in-out;
+}
+.table td,th{
+    padding: 10px;
+    border-right: solid 1px #555;
+    text-align: justify;
+}
+.table tr:hover{
+    background-color: #dfdfdf;
+    cursor: pointer;
+}
+.header{
+    background-color: #dfdfdf;
+    font-weight: bolder;
+}
