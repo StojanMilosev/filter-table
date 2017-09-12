@@ -1,0 +1,10 @@
+*,body{
+    margin: none;
+    padding: none;
+    font-family: Cantarell,sans-serif;
+}
+.container{
+    width: 900px;
+    margin: auto;
+    padding: 50px;
+}
